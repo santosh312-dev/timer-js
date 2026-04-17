@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    display: grid;
+    place-content: center;
+}
+.container{
+    width: 550px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    font-size: 105px;
+    font-weight: 600;
+}
+.controller{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+button{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:first-child{
+    background-color: green;
+}
+button:nth-child(2){
+    background-color: orange;
+}
+button:nth-child(3){
+    background-color: yellowgreen;
+}
+button:last-child{
+    background-color: red;
+}
